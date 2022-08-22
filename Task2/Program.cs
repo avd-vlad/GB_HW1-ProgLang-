@@ -31,7 +31,10 @@ if(a > b)     // Производим сравнения
     else
         max=c;
 else
-    max=b;
+    if(b > c)
+        max=b;
+    else
+        max=c;
 
 Console.Write($"The max number of {a}, {b} and {c} is {max}"); //Выводим результат
 

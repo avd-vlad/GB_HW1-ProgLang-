@@ -7,7 +7,7 @@ Console.WriteLine("Welcome to the find 'Max of Two' app!"); //Приветсви
 Console.Write("Please enter first number:"); // Запрашиваем у пользователя первое число
 a = Int32.Parse(Console.ReadLine());
 
-Console.Write("Please enter first number:"); // Запрашиваем у пользователя второе число
+Console.Write("Please enter second number:"); // Запрашиваем у пользователя второе число
 b = Int32.Parse(Console.ReadLine());
 
 max = a; //инициализируем max

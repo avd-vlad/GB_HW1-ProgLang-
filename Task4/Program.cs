@@ -2,7 +2,7 @@
 
 Console.WriteLine("Welcome to the \"Show all even from 1 to Num\" app!"); //Приветсвие
 
-Console.Write("Please enter the number to check:"); // Запрашиваем у пользователя число N
+Console.Write("Please enter the number N:"); // Запрашиваем у пользователя число N
 
 int num = Int32.Parse(Console.ReadLine());
 
